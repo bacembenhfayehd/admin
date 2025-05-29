@@ -1,0 +1,22 @@
+.sidebar{
+display: flex;
+flex-direction: column;
+border: 1px solid black;
+padding: 30px;
+gap: 20px;
+width: 100%;
+max-width: 250px;
+height: 100vh;
+background: white;
+}
+
+.sidebar-item{
+    
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    padding: 5px 20px;
+    border-radius: 6px;
+    background: #f6f6ff;
+    gap: 20px;
+}
